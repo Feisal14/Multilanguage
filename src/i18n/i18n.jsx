@@ -1,8 +1,10 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 
+//init the var to call it
 import translationsInEng from "../locals/en/translation.json";
 import translationsarab from "../locals/ar/translation.json";
+import translationsIt from "../locals/it/translation.json";
 
 // the translations
 const resources = {
@@ -11,6 +13,9 @@ const resources = {
   },
   ar: {
     translation: translationsarab,
+  },
+  it: {
+    translation: translationsIt,
   },
 };
 
