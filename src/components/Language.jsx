@@ -32,6 +32,7 @@ const LanguageSelector = () => {
           <option value="ar">عربي</option>
           <option value="en">English</option>
           <option value="it">italiano</option>
+          {/* <option value="es">spanich</option> */}
         </select>
       </form>
     </div>
