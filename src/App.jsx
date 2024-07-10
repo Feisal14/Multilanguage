@@ -9,7 +9,7 @@ function App() {
   const {t} = useTranslation();
 
   return (
-    <div className="bg-gradient-to-b from-Blue to-lightBlue" dir={t("dir")}>
+    <div className="" dir={t("dir")}>
       <Language />
       <Content />
       <Connect />

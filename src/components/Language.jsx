@@ -14,7 +14,7 @@ const LanguageSelector = () => {
   };
 
   return (
-    <div className="">
+    <div className="mt-5">
       <form className="max-w-sm mx-auto">
         <label
           htmlFor="countries"
