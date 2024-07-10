@@ -1,15 +1,18 @@
 import Language from "./components/Language";
 import Content from "./components/Content";
-import Sidebar from "./components/Sidebar";
 import Connect from "./components/Connect";
 
+import { useTranslation } from "react-i18next";
+
 function App() {
+
+  const {t} = useTranslation();
+
   return (
-    <div className="App">
+    <div className="bg-gradient-to-b from-Blue to-lightBlue" dir={t("dir")}>
       <Language />
       <Content />
       <Connect />
-      <Sidebar />
     </div>
   );
 }
