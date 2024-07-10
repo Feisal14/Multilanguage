@@ -5,12 +5,12 @@ function Contant() {
   const { t } = useTranslation();
 
   return (
-    <div className="h-screen flex items-center justify-center">
+    <div className=" flex items-center justify-center m-10">
       <div>
-        <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white text-center">
+        <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl dark:text-white text-center">
           MID-END | MET
         </h1>
-        <p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 text-center">
+        <p className="mb-6 text-lg font-normal text-white lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 text-center">
           {t("title")}
         </p>
 

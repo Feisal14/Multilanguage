@@ -1,8 +1,11 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 import i18n from "../i18n/i18n";
 
 const LanguageSelector = () => {
   const [selectedLanguage, setSelectedLanguage] = useState(i18n.language); // i18n.language contains the language assigned to lng in i18n.js file.
+  const { t } = useTranslation();
+
 
   const chooseLanguage = (e) => {
     e.preventDefault();
@@ -11,13 +14,13 @@ const LanguageSelector = () => {
   };
 
   return (
-    <div>
+    <div className="">
       <form className="max-w-sm mx-auto">
         <label
           htmlFor="countries"
-          className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+          className="block mb-2 text-sm font-medium text-white dark:text-white"
         >
-          Select an option
+          {t("select")}
         </label>
         <select
           id="countries"
