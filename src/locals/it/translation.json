@@ -3,6 +3,13 @@
     "more":"saperne di più",
     "Connect":{
         "title":"Connettiti con noi",
+        "email":"Indirizzo e-mail",
+        "password":"Password",
+        "confirmPassword":"Conferma password",
+        "firstName":"Nome",
+        "lastName":"Cognome",
+        "phoneNumber":"Numero di telefono",
+        "project":"Nome progetto",
         "submit":"invia"
     }
 }
