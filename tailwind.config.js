@@ -8,7 +8,8 @@ export default {
   theme: {
     colors:{
       Blue:"#090979",
-      lightBlue:"#00d4ff"
+      lightBlue:"#00d4ff",
+      Orange:"#FFB534"
     },
     extend: {
 

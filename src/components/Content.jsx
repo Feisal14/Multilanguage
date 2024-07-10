@@ -18,7 +18,7 @@ function Contant() {
           <a
             href="https://www.linkedin.com/company/midend-tech/about/"
             target="_blank"
-            className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900 "
+            className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white bg-Orange rounded-lg hover:bg-orange-400 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900 "
           >
             {t("more")}
             <svg
